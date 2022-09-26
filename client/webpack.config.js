@@ -27,8 +27,8 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'Text Editor',
-        short_name: 'text-EDI-tor',
-        description: 'Never forget your contacts!',
+        short_name: 'J.A.T.E',
+        description: 'Keep those texts edited!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
@@ -52,7 +52,6 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // We use babel-loader in order to use ES6.
           use: {
             loader: 'babel-loader',
             options: {
